@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 function Header() {
   return (
     <Navbar expand="lg" className="bg-light">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
