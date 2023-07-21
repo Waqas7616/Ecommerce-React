@@ -1,16 +1,13 @@
 
-
-// import Header from './components/Navbar/Header'
-// import Homepage from './pages/Homepage';
-// import Dashboard from './pages/dashboards/employerDashboard/Dashboard';
-// import Sidebar from './pages/dashboards/employerDashboard/Sidebar/Sidebar';
 import Header from './components/Navbar/Header';
+import Hero from './components/Hero/Hero'
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Hero />
     </div>
   );
 }

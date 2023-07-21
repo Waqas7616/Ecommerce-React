@@ -1,0 +1,73 @@
+.hero {
+    background-color: #F0E0FF;
+    /* background-color: red; */
+    position: relative;
+    padding-top: 40px;
+    height: 80vh;
+}
+
+.container-fluid.hero {
+    position: relative;
+}
+
+.secondary-heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #010101;
+}
+
+.primary-heading {
+    color: #010101;
+    font-size: 72px;
+    line-height: 97px;
+    margin: 6px 0 37px;
+
+}
+
+.hero:hover .chevron,
+.hero:hover .chevron i {
+    display: block;
+    transition: 2s linear;
+}
+
+.chevron,
+.chevron i {
+    border: none;
+    background: none;
+    font-size: 60px;
+    display: none;
+    transition: 2s linear;
+}
+
+.chevron-left {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+.chevron-right {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+.container-fluid.hero .slider .slide {
+    animation: slideUp 3s ease 1s forwards;
+
+}
+
+.slide2 {
+    transform: translateX(100%);
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    /* 100% {
+        transform: translateY(0);
+        opacity: 1;
+    } */
+}
