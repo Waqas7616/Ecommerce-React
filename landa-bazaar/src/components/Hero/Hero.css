@@ -3,7 +3,7 @@
     /* background-color: red; */
     position: relative;
     padding-top: 40px;
-    height: 80vh;
+
 }
 
 .container-fluid.hero {
@@ -34,9 +34,15 @@
 .chevron i {
     border: none;
     background: none;
-    font-size: 60px;
+    font-size: 40px;
     display: none;
     transition: 2s linear;
+    color: gray;
+    font-weight: 700;
+}
+
+.chevron i:hover {
+    color: #A749FF;
 }
 
 .chevron-left {
@@ -56,9 +62,16 @@
 
 }
 
-.slide2 {
-    transform: translateX(100%);
+.slider-image {
+    width: 100%;
+
 }
+
+.slider-image img {
+    width: 95%;
+
+}
+
 
 @keyframes slideUp {
     0% {
