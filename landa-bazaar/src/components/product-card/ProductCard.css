@@ -1,0 +1,15 @@
+.card {
+    width: 22rem;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+strike {
+    color: gray;
+}

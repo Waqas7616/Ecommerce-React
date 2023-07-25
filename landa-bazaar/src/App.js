@@ -1,13 +1,17 @@
 
-import Header from './components/Navbar/Header';
-import Hero from './components/Hero/Hero'
+
+import Homepage from './pages/Homepage';
+
 
 
 function App() {
+
   return (
+
     <div className="App">
-      <Header />
-      <Hero />
+      <Homepage />
+
+
     </div>
   );
 }
