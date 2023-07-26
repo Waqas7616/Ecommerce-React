@@ -5,32 +5,32 @@ import logo from '../../images/logo.png'
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src={logo} alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/"><img src={logo} alt="" /></a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/home">Home</a>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/home">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/home">Shop</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/home">Shop</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/home">About Us</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/home">About Us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/home">Contact</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/home">Contact</a>
             </li>
 
           </ul>
-          <div class="d-flex gap-2" >
+          <div className="d-flex gap-2" >
 
-            <i class="fa-solid fa-bag-shopping"></i>
-            <i class="fa-regular fa-heart"></i>
+            <i className="fa-solid fa-bag-shopping"></i>
+            <i className="fa-regular fa-heart"></i>
           </div>
         </div>
       </div>
