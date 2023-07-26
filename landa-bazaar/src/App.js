@@ -1,6 +1,8 @@
 
 
-import Homepage from './pages/Homepage';
+// import Homepage from './pages/Homepage';
+import Signup from './pages/login/signup/Signup';
+
 
 
 
@@ -8,8 +10,10 @@ function App() {
 
   return (
 
-    <div className="App">
-      <Homepage />
+    <div className="App d-flex justify-content-between">
+      {/* <Homepage /> */}
+      <Signup />
+
 
 
     </div>
