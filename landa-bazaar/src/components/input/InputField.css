@@ -1,0 +1,23 @@
+.outline-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+input::placeholder {
+    color: purple;
+    font-weight: 400;
+}

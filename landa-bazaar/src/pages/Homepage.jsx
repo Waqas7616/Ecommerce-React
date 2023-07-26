@@ -28,7 +28,7 @@ function Homepage() {
         }
         fetchData();
 
-    }, [])
+    },)
 
     // const resp = axios.get('https://fakestoreapi.com/products?limit=10').then(function (response) {
     //     console.log(response)
