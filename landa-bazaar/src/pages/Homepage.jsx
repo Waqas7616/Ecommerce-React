@@ -38,7 +38,7 @@ function Homepage() {
     // const data = resp.data;
     // console.log(data)
     return (
-        <div className=''>
+        <div className='container-fluid'>
             <Header />
             <Hero />
 
