@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import InputField from '../../../components/input/InputField'
+import InputField from '../../components/input/InputField'
 
 import './signup.css'
-import { auth } from '../../../firebase'
+import { auth } from '../../firebase'
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import { Link, useNavigate } from 'react-router-dom'
 function Signup() {
@@ -69,8 +69,8 @@ function Signup() {
                                     placeholder='Confirm Password'
                                     onChange={(e) => setFormData((prev) => ({ ...prev, confirmPassword: e.target.value }))} />
                                 <h6 style={{ color: 'red' }}>{errMessage}</h6>
-                                <button onClick={handleSubmission}>Sign Up</button>
-                                <button><i class="fa-brands fa-google"></i></button>
+                                <button className='signupButton' onClick={handleSubmission}>Sign Up</button>
+                                <button className='signupButton'><i className="fa-brands fa-google"></i></button>
                                 <p className="link-text text-center">Already have an Account? <Link to='/login'>Login</Link></p>
                             </div>
                         </div>

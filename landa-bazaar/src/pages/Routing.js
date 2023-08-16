@@ -3,7 +3,7 @@ import { Route, Routes, } from "react-router-dom";
 import React from 'react'
 import Homepage from "./Homepage";
 import Login from "./Login";
-import Signup from "./login/signup/Signup";
+import Signup from "./signup/Signup";
 
 function Routing() {
     return (

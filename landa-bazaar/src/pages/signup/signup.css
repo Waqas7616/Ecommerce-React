@@ -1,11 +1,11 @@
 .img-col {
-    background-image: url('../../../images/signup.jpg');
+    background-image: url('../../images/signup.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-button {
+.signupButton {
     background-color: purple;
     border: none;
     color: white;
