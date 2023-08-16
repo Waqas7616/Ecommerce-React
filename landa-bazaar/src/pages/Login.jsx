@@ -46,7 +46,7 @@ function Login() {
 
                                 <h6 style={{ color: 'red' }}>{errMessage}</h6>
                                 <button onClick={handleSubmission}>Login</button>
-                                <button><i class="fa-brands fa-google"></i></button>
+                                <button><i className="fa-brands fa-google"></i></button>
                                 <p className="link-text text-center">Don't have an Account? <Link to='/signup'>Sign up</Link></p>
                             </div>
                         </div>

@@ -2,6 +2,7 @@
     width: 22rem;
     height: 30rem;
     border: 2px solid gray;
+    position: relative;
 }
 
 .product {
@@ -15,4 +16,53 @@
 
 strike {
     color: gray;
+}
+
+.product:hover .hover-box {
+    display: flex;
+}
+
+.hover-box {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: opacity 1.5s ease;
+}
+
+.wishlistButton,
+.addToCartButton,
+.viewProductButton {
+    background-color: #903FDB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: opacity 1.5s ease;
+}
+
+.wishlistButton,
+.addToCartButton,
+.viewProductButton :hover {
+    cursor: pointer;
+}
+
+.wishlistButton i,
+.viewProductButton i {
+    font-size: 25px;
+}
+
+.addToCartButton button {
+    white-space: nowrap;
+    border: none;
+    background-color: #903FDB;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    background-color: #903FDB;
 }
