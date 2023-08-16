@@ -40,7 +40,7 @@ function Signup() {
 
 
     return (
-        <div className='container-fluid  d-flex justify-content-center align-items-center' style={{ background: 'purple', }}>
+        <div className='container-fluid vh-100 d-flex justify-content-center align-items-center' style={{ background: 'purple', }}>
             <div className="container bg-light " style={{ boxShadow: '1px 1px 2px 2px rgba(0,0,0,0.4)', borderRadius: '10px' }}>
                 <div className="row ">
                     <div className="col-md-6 img-col" ></div>

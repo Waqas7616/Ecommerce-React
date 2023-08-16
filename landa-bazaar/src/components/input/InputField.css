@@ -15,9 +15,15 @@ input {
     border-radius: 8px;
     width: 100%;
     outline: none;
+    border: 2px solid transparent;
+    transition: 2s linear;
 }
 
 input::placeholder {
     color: purple;
     font-weight: 400;
+}
+
+input:focus {
+    border: 2px solid purple;
 }

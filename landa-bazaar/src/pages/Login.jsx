@@ -25,7 +25,7 @@ function Login() {
     }
     return (
         <div className='container-fluid vh-100  d-flex justify-content-center align-items-center' style={{ background: 'purple', }}>
-            <div className="container bg-light " style={{ boxShadow: '1px 1px 2px 2px rgba(0,0,0,0.4)', borderRadius: '10px' }}>
+            <div className="container bg-light " >
                 <div className="row ">
                     <div className="col-md-6 img-col" ></div>
                     <div className="col-md-6 m-auto ">
@@ -34,20 +34,23 @@ function Login() {
                                 <h1 className="primary-heading m-auto">LOGIN</h1>
 
                                 <InputField
-                                    type='email'
+                                    type='password'
                                     value={login.email}
+
                                     placeholder='Enter Email...'
-                                    onChange={(e) => setLogin((prev) => ({ ...prev, email: e.target.value }))} />
+                                    onChange={(e) => setLogin((prev) => ({ ...prev, email: e.target.value }))}
+                                />
                                 <InputField
                                     type='password'
                                     value={login.password}
                                     placeholder='Enter Password'
-                                    onChange={(e) => setLogin((prev) => ({ ...prev, pass: e.target.value }))} />
+                                    onChange={(e) => setLogin((prev) => ({ ...prev, pass: e.target.value }))}
+                                />
 
                                 <h6 style={{ color: 'red' }}>{errMessage}</h6>
-                                <button onClick={handleSubmission}>Login</button>
-                                <button><i className="fa-brands fa-google"></i></button>
-                                <p className="link-text text-center">Don't have an Account? <Link to='/signup'>Sign up</Link></p>
+                                <button className='signupButton' onClick={handleSubmission}>Login</button>
+                                <button className='signupButton'><i className="fa-brands fa-google"></i></button>
+                                <p className="link-text text-center">Don't have an Account? <Link to='/'>Sign up</Link></p>
                             </div>
                         </div>
                     </div>
